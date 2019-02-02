@@ -1,0 +1,16 @@
+.features {
+    @include padding-standart;
+    text-align: center;
+    padding-top: 56px;
+    padding-bottom: 121px;
+
+    &__wrapper {
+        @include flex-row;
+        padding-bottom: 25px;
+    }
+
+    &__text {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

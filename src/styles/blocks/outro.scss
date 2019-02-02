@@ -1,0 +1,20 @@
+.outro {
+  @include padding-standart;
+  @include flex-column-centered;
+
+  min-height: 1507px;
+
+  padding-top: 89px;
+
+  background-image: url(../img/house-bg.jpg);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+
+  &__text {
+    margin-bottom: 3px;
+  }
+
+  &__caption {
+    margin-bottom: 81px;
+  }
+}

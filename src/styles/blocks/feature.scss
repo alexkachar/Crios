@@ -1,0 +1,50 @@
+.feature {
+    position: relative;
+    margin-right: 30px;
+    padding-top: 153px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 50px;
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+
+    &__caption {
+        margin-bottom: 32px;
+    }
+
+    &__text {
+      font-size: 14px;
+      font-weight: 400;
+
+      opacity: 0.35;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 90px;
+        left: 140px;
+        width: 55px;
+        height: 50px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+    &--church:after {
+        background-image: url('../img/church.png');
+    }
+
+    &--snowflake:after {
+        background-image: url('../img/snowflake.png');
+    }
+
+    &--toys:after {
+        background-image: url('../img/toys.png');
+    }
+
+    &--bell:after {
+        background-image: url('../img/bell.png');
+    }
+}

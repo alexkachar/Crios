@@ -1,0 +1,8 @@
+.page-header {
+    @include padding-standart;
+    @include flex-row;
+
+    min-height: 117px;
+    padding-top: 57px;
+    padding-bottom: 57px;
+}

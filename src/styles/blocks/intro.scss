@@ -1,0 +1,16 @@
+.intro {
+    @include padding-standart;
+    @include flex-column-centered;
+
+    min-height: 1284px;
+    padding-top: 178px;
+
+    background-image: url(../img/horse-bg.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+
+    &__text {
+      margin-top: 11px;
+      margin-bottom: 77px;
+    }
+}

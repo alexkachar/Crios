@@ -1,0 +1,31 @@
+.page-caption {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+
+    &__self {
+        margin-top: -18px;
+        margin-bottom: 0;
+        font-size: 48px;
+        font-weight: 400;
+        color: $color-blue;
+    }
+
+    &__text {
+        margin-top: -11px;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 18px;
+        color: $color-gray-dark;
+    }
+
+    &::before {
+        @include round-with-shadow;
+        content: "";
+        position: absolute;
+        top: -232px;
+        left: -116px;
+        width: 414px;
+        height: 414px;
+    }
+}

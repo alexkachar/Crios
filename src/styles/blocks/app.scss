@@ -1,0 +1,64 @@
+.app {
+  @include flex-row;
+  @include padding-standart;
+  min-height: 895px;
+  background-color: $color-white;
+  background-image: url('../img/bg-snowflake.png');
+  background-repeat: no-repeat;
+  background-position: 36px -85px;
+
+
+  &--reverse {
+    min-height: 800px;
+    flex-direction: row-reverse;
+    background-image: url('../img/bg-snowflake-2.png');
+    background-position: 106% 306px;
+    padding-bottom: 172px;
+  }
+
+  &__article {
+    width: 50%;
+    padding-top: 375px;
+    padding-right: 185px;
+    padding-left: 13px;
+  }
+
+  &__article--reverse {
+    padding-top: 288px;
+    padding-left: 183px;
+    padding-right: 80px;
+  }
+
+  &__caption {
+    color: $color-blue;
+    margin-bottom: 22px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 2.4;
+    opacity: 0.35;
+  }
+
+  &__figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0;
+    padding-right: 26px;
+    padding-top: 101px;
+  }
+
+  &__figure--reverse {
+    padding-left: 39px;
+    padding-top: 62px;
+  }
+
+  &__img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+}

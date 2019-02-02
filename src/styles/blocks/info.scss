@@ -1,0 +1,38 @@
+.info {
+  @include flex-row;
+  min-height: 562px;
+  background-color: $color-gray-light;
+
+  &--reverse {
+    flex-direction: row-reverse;
+  }
+
+  &__article {
+    width: 50%;
+    padding-top: 175px;
+    padding-right: 400px;
+    padding-left: 119px;
+  }
+
+  &__article--reverse {
+    padding-left: 265px;
+    padding-right: 200px;
+  }
+
+  &__text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 2.4;
+  }
+
+  &__figure {
+    width: 50%;
+    height: 562px;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__img {
+    width: 1000px;
+  }
+}

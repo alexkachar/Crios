@@ -1,0 +1,59 @@
+:root {
+    font-family: $font;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: $color-black;
+    box-sizing: border-box;
+    counter-reset: article-numbered;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: $color-white;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 400;
+    color: $color-black;
+  }
+
+  h3 {
+      font-size: 18px;
+      font-weight: 400;
+      color: $color-black;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    color: $color-gray-dark;
+    opacity: 0.25;
+  }
+
+  img {
+    max-width: 100%;
+    min-height: 1px;
+    height: auto;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }

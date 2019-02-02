@@ -1,0 +1,39 @@
+.review {
+  @include flex-row;
+  @include padding-standart;
+
+  min-height: 630px;
+  background-color: $color-gray-light;
+
+  &__article {
+    width: 50%;
+    padding-top: 188px;
+    padding-left: 34px;
+  }
+
+  &__caption {
+    color: $color-magenta;
+  }
+
+  &__text {
+    margin-top: 26px;
+    margin-bottom: 63px;
+    opacity: 0.35;
+    line-height: 2;
+  }
+
+  &__user-name {
+    margin-bottom: 0;
+    color: $color-black;
+    font-weight: 16;
+    opacity: 1;
+  }
+
+  &__user-title {
+    margin-top: 0;
+  }
+
+  &__figure {
+    width: 50%;
+  }
+}

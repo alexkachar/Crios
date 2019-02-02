@@ -1,0 +1,13 @@
+.btn-round {
+  @include round-with-shadow;
+  font-size: 0;
+  width: 60px;
+  height: 60px;
+  background-color: $color-white;
+  background-repeat: no-repeat;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $color-blue;
+  }
+}
